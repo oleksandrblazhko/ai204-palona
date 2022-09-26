@@ -10,7 +10,7 @@
     <tbody>
         <tr>
             <td align="center">FR1</td>
-            <td>Керувати базами облікових записів, інформації</td>
+            <td>Керування базами облікових записів, інформації</td>
         </tr>
         <tr>
             <td align="center">FR1.1</td>
@@ -30,7 +30,7 @@
         </tr>
         <tr>
             <td align="center">FR2</td>
-            <td>Придбати курс</td>
+            <td>Придбання курсу</td>
         </tr>
         <tr>
             <td align="center">FR2.1</td>
