@@ -30,7 +30,7 @@
         </tr>
         <tr>
             <td></td>
-            <td>NFR1.8</td>
+            <td>NFR1.6</td>
             <td>Data Transfer</td>
             <td>Пропускна здатність серверу повинна становити не менше 1 Gb/s</td>
         </tr>
