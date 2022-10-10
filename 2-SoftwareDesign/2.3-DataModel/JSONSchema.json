@@ -1,1 +1,120 @@
-
+{
+  "description": "Опис предметної області",
+  "type": "object",
+  "properties": {
+    "administrator": {
+      "description": "Адміністратор",
+      "type": "object",
+      "properties": {
+        "database": {
+          "description": "База даних",
+          "type": "object",
+          "properties": {
+            "ddata": {
+              "ddescription": "Інформація про курси та безпеку праці"
+            },
+            "info": {
+              "description": "Інформація",
+              "type": "object",
+              "properties": {
+                "ikurs": {
+                  "description": "Серія навчальних занять з однієї дисципліни"
+                },
+                "ibezpeka": {
+                  "description": "Умови праці на об'єктах матеріального виробництва"
+                },
+                "kurs": {
+                  "description": "Курси",
+                  "type": "object",
+                  "properties": {
+                    "kname": {
+                      "description": "Назва курсу"
+                    },
+                    "kprice": {
+                      "description": "Вартість"
+                    },
+                    "bezpeka": {
+                      "description": "Безпека праці",
+                      "type": "object",
+                      "properties": {
+                        "bdocuments": {
+                          "description": "Нормативні документи"
+                        },
+                        "assigneeIT": {
+                          "description": "Представник ІТ-школи",
+                          "type": "object",
+                          "properties": {
+                            "aname": {
+                              "description": "Ім'я"
+                            },
+                            "awork": {
+                              "description": "Стаж роботи"
+                            }
+                          },
+                          "required": [
+                            "aname",
+                            "awork"
+                          ]
+                        }
+                      },
+                      "required": [
+                        "bdocuments",
+                        "assigneeIT"
+                      ]
+                    }
+                  },
+                  "required": [
+                    "kname",
+                    "kprice",
+                    "bezpeka"
+                  ]
+                }
+              },
+              "required": [
+                "ikurs",
+                "ibezpeka",
+                "kurs"
+              ]
+            }
+          },
+          "required": [
+            "ddata",
+            "ddescription",
+            "info"
+          ]
+        }
+      },
+      "required": [
+        "database"
+      ]
+    },
+    "account": {
+      "description": "Обліковий запис",
+      "type": "object",
+      "properties": {
+        "aname": {
+          "description": "Ім'я"
+        },
+        "abirthday": {
+          "description": "Дата народження"
+        },
+        "aphonenumb": {
+          "description": "Номер телефону"
+        },
+        "ae-mail": {
+          "description": "e-mail"
+        },
+        "user": {
+          "description": "Користувач"
+        }
+      },
+      "required": [
+        "aname",
+        "abirthday",
+        "aphonenumb",
+        "ae-mail",
+        "user"
+      ]
+    }
+  }
+}
