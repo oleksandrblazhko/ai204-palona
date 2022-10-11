@@ -10,15 +10,18 @@
           "description": "База даних",
           "type": "object",
           "properties": {
-            "ddata": {
-              "description": "Інформація про курси та безпеку праці"
+            "ddataK": {
+              "description": "Назва курсу"
+            },
+            "ddataB": {
+              "description": "Стандарти безпеки праці"
             },
             "kursInfo": {
               "description": "Курси",
               "type": "object",
               "properties": {
-                "kname": {
-                  "description": "Назва курсу"
+                "kabout": {
+                  "description": "Опис курсу"
                 },
                 "kprice": {
                   "description": "Вартість"
@@ -53,14 +56,15 @@
                 }
               },
               "required": [
-                "kname",
+                "kabout",
                 "kprice",
                 "assigneeIT"
               ]
             }
           },
           "required": [
-            "ddata"
+            "ddataK",
+            "ddataB"
           ]
         }
       },
