@@ -1,0 +1,104 @@
+{
+  "description": "Опис предметної області",
+  "type": "object",
+  "properties": {
+    "administrator": {
+      "description": "Адміністратор",
+      "type": "object",
+      "properties": {
+        "database": {
+          "description": "База даних",
+          "type": "object",
+          "properties": {
+            "ddataK": {
+              "description": "Назва курсу"
+            },
+            "ddataB": {
+              "description": "Стандарти безпеки праці"
+            },
+            "kursInfo": {
+              "description": "Курси",
+              "type": "object",
+              "properties": {
+                "kabout": {
+                  "description": "Опис курсу"
+                },
+                "kprice": {
+                  "description": "Вартість"
+                },
+                "assigneeIT": {
+                  "description": "Представник ІТ-школи",
+                  "type": "object",
+                  "properties": {
+                    "aname": {
+                      "description": "Ім'я"
+                    },
+                    "awork": {
+                      "description": "Стаж роботи"
+                    }
+                  },
+                  "required": [
+                    "aname",
+                    "awork"
+                  ]
+                },
+                "bezpekaInfo": {
+                  "description": "Безпека праці",
+                  "type": "object",
+                  "properties": {
+                    "bdocuments": {
+                      "description": "Нормативні документи"
+                    }
+                  },
+                  "required": [
+                    "bdocuments"
+                  ]
+                }
+              },
+              "required": [
+                "kabout",
+                "kprice",
+                "assigneeIT"
+              ]
+            }
+          },
+          "required": [
+            "ddataK",
+            "ddataB"
+          ]
+        }
+      },
+      "required": [
+        "database"
+      ]
+    },
+    "account": {
+      "description": "Обліковий запис",
+      "type": "object",
+      "properties": {
+        "aname": {
+          "description": "Ім'я"
+        },
+        "abirthday": {
+          "description": "Дата народження"
+        },
+        "aphonenumb": {
+          "description": "Номер телефону"
+        },
+        "ae-mail": {
+          "description": "e-mail"
+        },
+        "user": {
+          "description": "Користувач"
+        }
+      },
+      "required": [
+        "aname",
+        "abirthday",
+        "aphonenumb",
+        "ae-mail",
+        "user"
+      ]
+    }
+  }
+}
