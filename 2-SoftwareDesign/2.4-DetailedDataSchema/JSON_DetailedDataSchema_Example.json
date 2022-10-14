@@ -6,90 +6,99 @@
       "description": "Адміністратор",
       "type": "object",
       "properties": {
-        "database": {
-          "description": "База даних",
-          "type": "object",
-          "properties": {
-            "ddataK": {
-              "description": "Назва курсу",
-              "type": "string",
-              "minLength": 1,
-              "maxLength": 100
-            },
-            "ddataB": {
-              "description": "Стандарти безпеки праці",
-              "type": "string",
-              "minLength": 1,
-              "maxLength": 10000
-            },
-            "kursInfo": {
-              "description": "Курси",
-              "type": "object",
-              "properties": {
-                "kabout": {
-                  "description": "Опис курсу",
-                  "type": "string",
-                  "minLength": 1,
-                  "maxLength": 100
-                },
-                "kprice": {
-                  "description": "Вартість",
-                  "type": "number",
-                  "minimum": 0,
-                  "maximum": 100000
-                },
-                "assigneeIT": {
-                  "description": "Представник ІТ-школи",
-                  "type": "object",
-                  "properties": {
-                    "aname": {
-                      "description": "Ім'я",
-                      "type": "string",
-                      "minLength": 1,
-                      "maxLength": 100
-                    },
-                    "awork": {
-                      "description": "Стаж роботи",
-                      "type": "number",
-                      "minimum": 0,
-                      "maximum": 60
-                    }
-                  },
-                  "required": [
-                    "aname",
-                    "awork"
-                  ]
-                },
-                "bezpekaInfo": {
-                  "description": "Безпека праці",
-                  "type": "object",
-                  "properties": {
-                    "bdocuments": {
-                      "description": "Нормативні документи",
-                      "type": "string",
-                      "maxLength": 10000
-                    }
-                  },
-                  "required": [
-                    "bdocuments"
-                  ]
-                }
+        "aname": {
+          "description": "admin",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 5,
+          "database": {
+            "description": "База даних",
+            "type": "object",
+            "properties": {
+              "ddataK": {
+                "description": "Назва курсу",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
               },
-              "required": [
-                "kabout",
-                "kprice",
-                "assigneeIT"
-              ]
-            }
+              "ddataB": {
+                "description": "Стандарти безпеки праці",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "kursInfo": {
+                "description": "Курси",
+                "type": "object",
+                "properties": {
+                  "kabout": {
+                    "description": "Опис курсу",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "kprice": {
+                    "description": "Вартість",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100000
+                  },
+                  "assigneeIT": {
+                    "description": "Представник ІТ-школи",
+                    "type": "object",
+                    "properties": {
+                      "aname": {
+                        "description": "Ім'я",
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "awork": {
+                        "description": "Стаж роботи",
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 60
+                      }
+                    },
+                    "required": [
+                      "aname",
+                      "awork"
+                    ]
+                  },
+                  "bezpekaInfo": {
+                    "description": "Безпека праці",
+                    "type": "object",
+                    "properties": {
+                      "bdocuments": {
+                        "description": "Нормативні документи",
+                        "type": "string",
+                        "maxLength": 10000
+                      }
+                    },
+                    "required": [
+                      "bdocuments"
+                    ]
+                  }
+                },
+                "required": [
+                  "kabout",
+                  "kprice",
+                  "assigneeIT"
+                ]
+              }
+            },
+            "required": [
+              "ddataK",
+              "ddataB"
+            ]
           },
           "required": [
-            "ddataK",
-            "ddataB"
+            "database"
           ]
         }
       },
       "required": [
-        "database"
+        "aname"
       ]
     },
     "account": {
