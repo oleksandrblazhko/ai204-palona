@@ -1,1 +1,18 @@
+@startuml
 
+title Presentation level (PL)
+
+left to right direction
+node "<<Персональний комп'ютер>>" as PC{
+node "<<OC Windows>>"{
+  node "<<Веб-навігатор>>"{
+    component [.js (Angular)]
+  }
+}
+}
+interface "Клавіатура"
+interface "Маніпулятор - миша"
+"Клавіатура" -- PC
+"Маніпулятор - миша" -- PC
+
+@enduml
