@@ -1,0 +1,24 @@
+@startuml
+
+title ConceptClasses
+
+
+class Administrator {
+name
+}
+class Database {
+ dataK
+ dataB
+}
+class KursInfo {
+ about
+ price
+}
+class bezpekaInfo {
+ documents
+}
+
+Administrator "1" o-- "1" Database
+Database "1" o-- "1" KursInfo
+Database "1" o-- "1" bezpekaInfo
+@enduml

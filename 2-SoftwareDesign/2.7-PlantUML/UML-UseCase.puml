@@ -1,0 +1,16 @@
+@startuml
+
+title UseCaseDiagram
+left to right direction
+skinparam packageStyle rectangle
+actor Користувач
+actor Споживач
+Споживач -|> Користувач 
+rectangle {
+Користувач -- (Створити новий обліковий запис)
+Користувач -- (Авторизувати користувача)
+Споживач -- (Отримати пояснення безпеки праці)
+(Отримати пояснення безпеки праці) .> (Авторизувати користувача) : include
+}
+
+@enduml
