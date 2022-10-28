@@ -10,7 +10,7 @@
     </thead>
     <tbody>
         <tr>
-          <td align="center"><i>FR1.1</i></td>
+          <td align="center"><i>FR1.5</i></td>
           <td align="center"><i>TC1.1</i></td>
             <td>
               Початкові умови: акаунт користувача ще не створено
@@ -25,7 +25,7 @@
             <td align="center">Результат = 1</td>
         </tr>
         <tr>
-            <td align="center"><i>FR1.1</i></td>
+            <td align="center"><i>FR1.5</i></td>
             <td align="center"><i>TC1.2</i></td>
             <td>
               Початкові умови: відсутні
@@ -40,7 +40,7 @@
             <td align="center">Результат = -1</td>
         </tr>
         <tr>
-            <td align="center"><i>FR1.1</i></td>
+            <td align="center"><i>FR1.5</i></td>
             <td align="center"><i>TC1.3</i></td>
             <td>
               Початкові умови: відсутні
@@ -55,7 +55,7 @@
             <td align="center">Результат = -1</td>
         </tr>
         <tr>
-            <td align="center"><i>FR1.1</i></td>
+            <td align="center"><i>FR1.5</i></td>
             <td align="center"><i>TC1.4</i></td>
             <td>
               Початкові умови: відсутні
@@ -70,7 +70,7 @@
             <td align="center">Результат = -2</td>
         </tr>
         <tr>
-            <td align="center"><i>FR1.1</i></td>
+            <td align="center"><i>FR1.5</i></td>
             <td align="center"><i>TC1.5</i></td>
             <td>Початкові умови: відсутні
              <br>Кроки сценарію:</br>
@@ -84,7 +84,7 @@
             <td align="center">Результат = -3</td>
         </tr>
          <tr>
-            <td align="center"><i>FR1.1</i></td>
+            <td align="center"><i>FR1.5</i></td>
             <td align="center"><i>TC1.6</i></td>
             <td>Початкові умови: відсутні
              <br>Кроки сценарію:</br>
@@ -98,7 +98,7 @@
             <td align="center">Результат = -3</td>
         </tr>
          <tr>
-            <td align="center"><i>FR1.1</i></td>
+            <td align="center"><i>FR1.5</i></td>
             <td align="center"><i>TC1.7</i></td>
             <td>Початкові умови: відсутні
              <br>Кроки сценарію:</br>
