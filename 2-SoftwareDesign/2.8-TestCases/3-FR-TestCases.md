@@ -1,4 +1,3 @@
-### Опис функціональних вимог
 
 <table>
     <thead align="center">
