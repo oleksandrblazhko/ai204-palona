@@ -1,0 +1,142 @@
+{
+  "description": "Опис предметної області",
+  "type": "object",
+  "properties": {
+    "administrator": {
+      "description": "Адміністратор",
+      "type": "object",
+      "properties": {
+        "aname": {
+          "description": "admin",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 5,
+          "database": {
+            "description": "База даних",
+            "type": "object",
+            "properties": {
+              "ddataK": {
+                "description": "Назва курсу",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 100
+              },
+              "ddataB": {
+                "description": "Стандарти безпеки праці",
+                "type": "string",
+                "minLength": 1,
+                "maxLength": 10000
+              },
+              "kursInfo": {
+                "description": "Курси",
+                "type": "object",
+                "properties": {
+                  "kabout": {
+                    "description": "Опис курсу",
+                    "type": "string",
+                    "minLength": 1,
+                    "maxLength": 100
+                  },
+                  "kprice": {
+                    "description": "Вартість",
+                    "type": "number",
+                    "minimum": 0,
+                    "maximum": 100000
+                  },
+                  "assigneeIT": {
+                    "description": "Представник ІТ-школи",
+                    "type": "object",
+                    "properties": {
+                      "aname": {
+                        "description": "Ім'я",
+                        "type": "string",
+                        "minLength": 1,
+                        "maxLength": 100
+                      },
+                      "awork": {
+                        "description": "Стаж роботи",
+                        "type": "number",
+                        "minimum": 0,
+                        "maximum": 60
+                      }
+                    },
+                    "required": [
+                      "aname",
+                      "awork"
+                    ]
+                  },
+                  "bezpekaInfo": {
+                    "description": "Безпека праці",
+                    "type": "object",
+                    "properties": {
+                      "bdocuments": {
+                        "description": "Нормативні документи",
+                        "type": "string",
+                        "maxLength": 10000
+                      }
+                    },
+                    "required": [
+                      "bdocuments"
+                    ]
+                  }
+                },
+                "required": [
+                  "kabout",
+                  "kprice",
+                  "assigneeIT"
+                ]
+              }
+            },
+            "required": [
+              "ddataK",
+              "ddataB"
+            ]
+          },
+          "required": [
+            "database"
+          ]
+        }
+      },
+      "required": [
+        "aname"
+      ]
+    },
+    "account": {
+      "description": "Обліковий запис",
+      "type": "object",
+      "properties": {
+        "aname": {
+          "description": "Ім'я",
+          "type": "string",
+          "minLength": 1,
+          "maxLength": 100
+        },
+        "abirthday": {
+          "description": "Дата народження",
+          "type": "string",
+          "format": "date"
+        },
+        "aphonenumb": {
+          "description": "Номер телефону",
+          "type": "string",
+          "pattern": "^(\\([0-9]{3}\\))?[0-9]{3}-[0-9]{4}$"
+        },
+        "ae-mail": {
+          "description": "e-mail",
+          "type": "string",
+          "format": "email"
+        },
+        "user": {
+          "description": "Користувач"
+        }
+      },
+      "required": [
+        "aname",
+        "abirthday",
+        "aphonenumb",
+        "ae-mail",
+        "user"
+      ]
+    }
+  }
+}
