@@ -22,9 +22,9 @@
             <td align="center">Правильний</td>
           <td>
             <i>
-            <br>aname = Matvii</br>
+            aname = Matvii
             <br>abirthday = 28.11.2002</br>
-            <br>aphonenumber = +380954841270</br>
+            aphonenumber = +380954841270
             <br>ae-mail = matvii122@gmail.com</br>
             </i>
           </td>
@@ -43,9 +43,9 @@
             <td align="center">Неправильний</td>
           <td>
             <i>
-            <br>aname = 2atvii</br>
+            aname = 2atvii
             <br>abirthday = 28.11.2002</br>
-            <br>aphonenumber = +380954841270</br>
+            aphonenumber = +380954841270
             <br>ae-mail = matvii122@gmail.com</br>
             </i>
           </td>
@@ -64,9 +64,9 @@
             <td align="center">Неправильний</td>
           <td>
             <i>
-            <br>aname = Maааааааааааtviiіі</br>
+            aname = Maааааааааааtviiіі
             <br>abirthday = 28.11.2002</br>
-            <br>aphonenumber = +380954841270</br>
+            aphonenumber = +380954841270
             <br>ae-mail = matvii122@gmail.com</br>
             </i>
           </td>
@@ -85,9 +85,9 @@
             <td align="center">Неправильний</td>
           <td>
             <i>
-            <br>aname = Matvii</br>
+            aname = Matvii
             <br>abirthday = Двадцять восьме.11.2002</br>
-            <br>aphonenumber = +380954841270</br>
+            aphonenumber = +380954841270
             <br>ae-mail = matvii122@gmail.com</br>
             </i>
           </td>
@@ -106,9 +106,9 @@
             <td align="center">Неправильний</td>
           <td>
             <i>
-            <br>aname = Matvii</br>
+            aname = Matvii
             <br>abirthday = 28.11.2002</br>
-            <br>aphonenumber = 3380954841270</br>
+            aphonenumber = 3380954841270
             <br>ae-mail = matvii122@gmail.com</br>
             </i>
           </td>
@@ -127,9 +127,9 @@
             <td align="center">Неправильний</td>
           <td>
             <i>
-            <br>aname = Matvii</br>
+            aname = Matvii
             <br>abirthday = 28.11.2002</br>
-            <br>aphonenumber = +380954841270000</br>
+            aphonenumber = +380954841270000
             <br>ae-mail = matvii122@gmail.com</br>
             </i>
           </td>
@@ -148,9 +148,9 @@
             <td align="center">Неправильний</td>
           <td>
             <i>
-            <br>aname = Matvii</br>
+            aname = Matvii
             <br>abirthday = 28.11.2002</br>
-            <br>aphonenumber = +380954841270000</br>
+            aphonenumber = +380954841270
             <br>ae-mail = matvii122gmail.com</br>
             </i>
           </td>
