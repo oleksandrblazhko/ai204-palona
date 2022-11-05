@@ -32,7 +32,7 @@
             </td>
             <td align="center">MongoDB 6.0</td>
           <td>
-            Локальне розташування
+            AWS(хмарне розташування)
           </td>
         </tr>
     </tbody>
