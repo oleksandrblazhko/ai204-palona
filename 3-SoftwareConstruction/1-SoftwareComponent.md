@@ -13,16 +13,16 @@
              IDE
             </td>
             <td align="center">PyCharm Community Edition 2022.2.1</td>
-          <td>
+          <td align="center">
            Локальне розташування
           </td>
         </tr>
         <tr>
-             <td>
+             <td align="center">
               Application Server
             </td>
             <td align="center">WSGI</td>
-          <td>
+          <td align="center">
             Локальне розташування
           </td>
         </tr>
@@ -31,7 +31,7 @@
               DataBase Server
             </td>
             <td align="center">MongoDB 6.0</td>
-          <td>
+          <td align="center">
             AWS(хмарне розташування)
           </td>
         </tr>
