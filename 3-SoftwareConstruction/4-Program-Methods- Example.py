@@ -12,13 +12,6 @@ class Kursinfo:
 
 
 class Account:
-    def __init__(self, account_id):
-        self.aname = "null"
-        self.abirthday = "null"
-        self.account_id = account_id
-        self.aphonenumber = "null"
-        self.ae_mail = "null"
-
     def create_Account(self): # Метод введення створення акаунту
         aname = input("Введіть ім'я: ")
         abirthday = input("Введіть дату народження: ")
@@ -26,6 +19,13 @@ class Account:
         ae_mail = input("Введіть електрону адресу: ")
         return aname, abirthday, aphonenumber, ae_mail
         print("Аккаунт створено")
+
+    def __init__(self, account_id, aname, abirthday, aphonenumber, ae_mail):
+        self.aname = aname
+        self.abirthday = abirthday
+        self.account_id = account_id
+        self.aphonenumber = aphonenumber
+        self.ae_mail = ae_mail
 
 
 class User(Account, Database, Kursinfo):
